@@ -23,7 +23,7 @@ public class UtilidadesBase {
 
     private Connection conexion;
     
-    //Constructor
+    //Constructor a
     public UtilidadesBase() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
         conexion = DriverManager.getConnection("jdbc:postgresql://"
