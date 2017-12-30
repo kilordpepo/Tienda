@@ -12,6 +12,10 @@
         <servlet-name>principal</servlet-name>
         <servlet-class>tienda.Principal</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Comprar</servlet-name>
+        <servlet-class>tienda.Comprar</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/LoginSeguridad</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>principal</servlet-name>
         <url-pattern>/principal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Comprar</servlet-name>
+        <url-pattern>/Comprar</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

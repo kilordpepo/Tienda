@@ -78,11 +78,10 @@ public class UtilidadesBase {
             }
             rs.close();
             st.close();
-            return null;
+            return usuarioBase;
         } catch (SQLException ex) {
             Logger.getLogger(UtilidadesBase.class.getName()).log(Level.SEVERE, null, ex);
-        } finally {
-            return usuarioBase;
+            return null;
         }
     }
      /**

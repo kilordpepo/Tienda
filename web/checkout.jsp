@@ -87,41 +87,24 @@
 								</div>
 								<div id="collapseOne" class="accordion-body in collapse">
 									<div class="accordion-inner">
-										<div class="row-fluid">
-											<div class="span6">
-												<h4>New Customer</h4>
-												<p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
-												<form action="#" method="post">
-													<fieldset>
-														<label class="radio" for="register">
-															<input type="radio" name="account" value="register" id="register" checked="checked">Register Account
-														</label>
-														<label class="radio" for="guest">
-															<input type="radio" name="account" value="guest" id="guest">Guest Checkout
-														</label>
-														<br>
-														<button class="btn btn-inverse" data-toggle="collapse" data-parent="#collapse2">Continue</button>
-													</fieldset>
-												</form>
-											 </div>
 											 <div class="span6">
-												<h4>Returning Customer</h4>
-												<p>I am a returning customer</p>
-												<form action="#" method="post">
+												<h4>Realizar compra</h4>
+												<p>Por favor ingrese los datos de su tarjeta para realizar la compra</p>
+												<form action="Comprar" method="post">
 													<fieldset>
 														<div class="control-group">
-															<label class="control-label">Username</label>
+															<label class="control-label">Nro Tarjeta</label>
 															<div class="controls">
-																<input type="text" placeholder="Enter your username" id="username" class="input-xlarge">
+																<input type="password" name="tarjeta" placeholder="Ingresa tu numero de tarjeta" id="tarjeta" class="input-xlarge">
 															</div>
 														</div>
 														<div class="control-group">
-															<label class="control-label">Password</label>
+															<label class="control-label">Clave seguridad</label>
 															<div class="controls">
-															<input type="password" placeholder="Enter your password" id="password" class="input-xlarge">
+															<input type="password" name="clave" placeholder="Ingrese su clave" id="clave" class="input-xlarge">
 															</div>
 														</div>
-														<button class="btn btn-inverse">Continue</button>
+														<button class="btn btn-inverse">Comprar</button>
 													</fieldset>
 												</form>
 											</div>
